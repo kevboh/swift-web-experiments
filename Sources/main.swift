@@ -9,4 +9,4 @@ app.get("/") { request in
     return "Hello world!"
 }
 
-app.start(port: 8080)
+app.start()
