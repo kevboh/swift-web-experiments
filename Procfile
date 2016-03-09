@@ -1,1 +1,1 @@
-web: Swift-Web
+web: Swift-Web --port=$PORT

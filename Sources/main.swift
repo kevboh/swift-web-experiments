@@ -1,5 +1,12 @@
 #if os(Linux)
 import Glibc
 #endif
+import Vapor
 
-print("Hello, Swift!")
+let app = Application()
+
+app.get("/") { request in
+    return "Hello world!"
+}
+
+app.start(port: 8080)
