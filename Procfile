@@ -1,1 +1,1 @@
-web: .build/release/swift-web
+web: Swift-Web
